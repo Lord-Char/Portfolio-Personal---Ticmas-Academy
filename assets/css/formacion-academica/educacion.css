@@ -2,6 +2,39 @@ ul  {
   list-style: none;
   
 }
+/*tic = Ticmas Academy*/
+.div__tic{
+  width: 500px;
+  background-color: #cdcdcd;
+  justify-content: center;
+  text-decoration: none;
+}
+.li__tic::before{
+  content: '';
+  display: inline-block;
+  width: 95px;
+  height: 75px;
+  background-image: url(/assets/img/logos-proyecto/Ticmas/Academy.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 5px;  
+}
+
+.li__tic {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.li__tic span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
 
 .div__ap{
   width: 500px;
@@ -34,7 +67,6 @@ ul  {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
-  
 }
 
 .li__logap span {
