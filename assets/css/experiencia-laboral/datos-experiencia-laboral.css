@@ -1,9 +1,12 @@
 * {
-    
+  margin: 1.5px;
 }
 
 ul  {
     list-style: none;
+  }
+  .sitio__senasa{
+    
   }
   .ex__senasa {
     width: 500px;
