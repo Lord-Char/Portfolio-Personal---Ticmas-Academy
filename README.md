@@ -17,5 +17,11 @@ A mediano o largo plazo, a este proyecto le seguiré agregando nuevas funciones.
 Dejo mi correo, por si desean comunicarse: matiasblanstuker@gmail.com
 O bien pueden visitar mi perfil de GitHub: github.com/Lord-Char
 
+#Actualizaciones del proyecto
+#Setiembre 2023
+- Sigo sin poder lograr que aparezca la imagen como cover de Ticmas Academy. 
+- No pude encontrar el error de porque tengo como un enlace permanente a Linkedin, cuando se hace un evento en el apartado de Formación Académica. 
+- Los enlaces de las redes sociales funcionan a la perfección. 
+- Me falta lograr que el proyecto arranque usando el apartado que llamo "intro", en lugar del index. 
 
 
