@@ -9,7 +9,7 @@ ul  {
   justify-content: center;
   text-decoration: none;
 }
-.li__tic::before{
+.li__logtic::before{
   content: '';
   display: inline-block;
   width: 95px;
@@ -20,7 +20,7 @@ ul  {
   margin-right: 5px;  
 }
 
-.li__tic {
+.li__logtic {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
@@ -28,7 +28,7 @@ ul  {
   border-radius: 10px;
 }
 
-.li__tic span {
+.li__logtic span {
   display: flex;
   flex-direction: row;
   align-items: center;
