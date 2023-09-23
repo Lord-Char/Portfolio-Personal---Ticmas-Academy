@@ -6,7 +6,8 @@ ul  {
     list-style: none;
   }
   .sitio__senasa{
-    
+    /*tengo que lograr que con esta clase sea el enlace url, usando solamente la
+    imagen que tengo del organismo como cover*/
   }
   .ex__senasa {
     width: 500px;
