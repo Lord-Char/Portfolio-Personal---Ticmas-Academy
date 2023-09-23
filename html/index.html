@@ -207,66 +207,54 @@
 </section>
 <section>
   <h2>Contacto</h2>
-  
-<!--Nuevo formulario de contacto--><section class="contacto">
-    <div>
-      <button type="button" class="btn btn-primary" id="btn-contacto">Hablemos</button>
-    <title>Formulario de Contacto</title>
-    <!-- Agrega los archivos CSS y JavaScript de Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Hablemos</a> 
+  <div class="container mt-5">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+    <form id="contact-form">
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
 
-    <div class="container mt-5">
-        <h1>Contacto</h1>
-        <form id="contact-form">
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" required>
-            </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
 
-            <div class="mb-3">
-                <label for="email" class="form-label">Correo Electrónico:</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" name="mensaje" required></textarea>
+        </div>
 
-            <div class="mb-3">
-                <label for="mensaje" class="form-label">Mensaje:</label>
-                <textarea class="form-control" id="mensaje" name="mensaje" required></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-
-        <div id="respuesta" class="mt-3"></div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
     </div>
+    <div id="respuesta" class="mt-3"></div>
+</div>
 
-    <!-- Agrega los archivos JavaScript de Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<!-- Agrega los archivos JavaScript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 
-    <script>
-        // Función para enviar el formulario
-        document.getElementById("contact-form").addEventListener("submit", function(event) {
-            event.preventDefault();
+<script>
+    // Función para enviar el formulario
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();
 
-            // Recopilar los datos del formulario
-            var nombre = document.getElementById("nombre").value;
-            var email = document.getElementById("email").value;
-            var mensaje = document.getElementById("mensaje").value;
+        // Recopilar los datos del formulario
+        var nombre = document.getElementById("nombre").value;
+        var email = document.getElementById("email").value;
+        var mensaje = document.getElementById("mensaje").value;
 
-            // Aquí puedes realizar acciones adicionales, como validar los datos, enviarlos al servidor, etc.
+        // Aquí puedes realizar acciones adicionales, como validar los datos, enviarlos al servidor, etc.
 
-            // Mostrar un mensaje de confirmación
-            var respuesta = document.getElementById("respuesta");
-            respuesta.innerHTML = '<div class="alert alert-success">¡Gracias por tu mensaje, ' + nombre + '!</div>';
+        // Mostrar un mensaje de confirmación
+        var respuesta = document.getElementById("respuesta");
+        respuesta.innerHTML = '<div class="alert alert-success">¡Gracias por tu mensaje, ' + nombre + '!</div>';
 
-            // Limpiar el formulario
-            document.getElementById("contact-form").reset();
-        });
-    </script>
-
-<!--Footer-->
-        <p id="derechos" class="copyright">&copy Copyright - eMeNBieS Diseño Web - 2023</p>
-    </div>
-</section>
+        // Limpiar el formulario
+        document.getElementById("contact-form").reset();
+    });
+</script>
 </body>
 </html>
 
