@@ -2,6 +2,9 @@
 # Descripcion del proyecto:
 Diseño Front End de un portfolio personal. Este repositorio contiene el código fuente de mi portfolio personal desarrollado durante el curso Argentina Programa 2022.
 
+# IMPORTANTE:
+Una vez que descargue el proyecto, se debe ejecutar el apartado llamado "intro.html"
+
 # Tecnologías usadas:
 En comparación al proyecto arriba mencionado, este tiene solamente HTML, CSS y JS. 
 
@@ -17,8 +20,8 @@ A mediano o largo plazo, a este proyecto le seguiré agregando nuevas funciones.
 Dejo mi correo, por si desean comunicarse: matiasblanstuker@gmail.com
 O bien pueden visitar mi perfil de GitHub: github.com/Lord-Char
 
-#Actualizaciones del proyecto
-#Setiembre 2023
+# Actualizaciones del proyecto
+Setiembre 2023
 - Sigo sin poder lograr que aparezca la imagen como cover de Ticmas Academy. 
 - No pude encontrar el error de porque tengo como un enlace permanente a Linkedin, cuando se hace un evento en el apartado de Formación Académica. 
 - Los enlaces de las redes sociales funcionan a la perfección. 
